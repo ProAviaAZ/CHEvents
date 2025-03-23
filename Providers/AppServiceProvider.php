@@ -47,7 +47,7 @@ class AppServiceProvider extends ServiceProvider
         $this->moduleSvc->addFrontendLink('Events', '/events', 'fa fa-calendar', $logged_in = true);
 
         // Admin links:
-        $this->moduleSvc->addAdminLink('Events', '/admin/chevents');
+        $this->moduleSvc->addAdminLink('Events', '/admin/chevents', 'pe-7s-date');
     }
 
     /**
